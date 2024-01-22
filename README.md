@@ -4,7 +4,7 @@ The repository where the JSON Schema TSC discuss and decide thing.
 ## What to expect
 
 In this repository you will find:
- * TSC Vooting Issues / Discussions
+ * TSC Issues and Discussion for voting or decision making.
 
 ## About the decision making process
 
