@@ -1,0 +1,19 @@
+# Configuration file for GitVote
+
+profiles:
+  default:
+    duration: 4w  # Voting duration - How long the vote will be open
+    pass_threshold: 75  # Percentage of votes in favor required to pass
+    periodic_status_check: "1 week"  # Check the status of the vote every week
+    close_on_passing: true  # Close the vote if it passes
+    allowed_voters:  # Who can vote
+      teams:
+        - tsc
+
+# Available Commands:
+#   - /vote           : Create a new vote
+#   - /check-vote     : Check the status of an existing vote
+#   - /cancel-vote    : Cancel an ongoing vote
+
+# For more information, visit:
+# https://github.com/cncf/gitvote?tab=readme-ov-file#gitvote
